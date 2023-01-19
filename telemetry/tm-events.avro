@@ -1,0 +1,31 @@
+{
+    "doc": "Raw Telemetry Events",
+    "type": "record",
+    "name": "rawTelemetryEvents",
+    "fields": [
+        {            
+            "name": "tm_event_id",
+            "type": "long"
+        },
+        {
+            "name": "msg_type",
+            "type": "string"            
+        },
+        {
+            "name": "driver_id",
+            "type": "string"            
+        },
+        {
+            "name": "trip_num",
+            "type": "long"            
+        },
+        {
+            "name": "speed",
+            "type": "int"            
+        },
+        {
+            "name": "ts_timestamp",
+            "type": "long"            
+        }
+    ]
+}
