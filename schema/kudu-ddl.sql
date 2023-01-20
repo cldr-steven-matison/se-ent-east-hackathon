@@ -148,6 +148,7 @@ CREATE TABLE default.tm_events_raw (
   brake_press FLOAT COMMENT 'Brake pressure (bar)',
   steer_ang FLOAT COMMENT 'Steering angle (deg)',
   steer_ang_rate FLOAT COMMENT 'Steering angle rate (deg/s)',
+  tm_event_dt STRING COMMENT 'Event datetime in format: MM-dd-yyyy hh:mm:ss a',
   ts_timestamp BIGINT COMMENT 'Randomized timestamp across timespan',
   primary key(tm_event_id)
 )
