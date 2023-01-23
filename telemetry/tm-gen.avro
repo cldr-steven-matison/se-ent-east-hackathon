@@ -10,19 +10,14 @@
             "start": 1
           }
         }
-      }},
-      {"name": "msg_type", "type": {
-        "type": "string",
-        "arg.properties": {
-          "options": [
-            "telemetry"
-          ]
-        }
-      }},
+      }},      
       {"name": "driver_id", "type": {
-        "type": "string",
+        "type": "int",
         "arg.properties": {
-          "regex": "Driver_[1-9][0-9]"
+          "range": {
+            "min": 1,
+            "max": 1000
+          }
         }
       }},
       {"name": "trip_num", "type": {
@@ -39,6 +34,60 @@
           "range": {
             "min": 1,
             "max": 100
+          }
+        }
+      }},
+      {"name": "lat_accel", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": -11.87125,
+            "max": 14.81125
+          }
+        }
+      }},
+      {"name": "long_accel", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": -9.2650,
+            "max": 7.2875
+          }
+        }
+      }},
+      {"name": "throttle_pos", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": 0.000000,
+            "max": 100.000000
+          }
+        }
+      }},
+      {"name": "brake_press", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": -0.899999,
+            "max": 54.000000
+          }
+        }
+      }},
+      {"name": "steer_ang", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": -122.300000,
+            "max": 188.600003
+          }
+        }
+      }},
+      {"name": "steer_ang_rate", "type": {
+        "type": "float",
+        "arg.properties": {
+          "range": {
+            "min": -247.5,
+            "max": 248.5
           }
         }
       }},

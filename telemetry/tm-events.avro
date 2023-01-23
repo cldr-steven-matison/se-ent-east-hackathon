@@ -6,14 +6,10 @@
         {            
             "name": "tm_event_id",
             "type": "long"
-        },
-        {
-            "name": "msg_type",
-            "type": "string"            
-        },
+        },        
         {
             "name": "driver_id",
-            "type": "string"            
+            "type": "int"            
         },
         {
             "name": "trip_num",
@@ -22,6 +18,30 @@
         {
             "name": "speed",
             "type": "int"            
+        },
+        {
+            "name": "lat_accel",
+            "type": "float"            
+        },
+        {
+            "name": "long_accel",
+            "type": "float"            
+        },
+        {
+            "name": "throttle_pos",
+            "type": "float"            
+        },
+        {
+            "name": "brake_press",
+            "type": "float"            
+        },
+        {
+            "name": "steer_ang",
+            "type": "float"            
+        },
+        {
+            "name": "steer_ang_rate",
+            "type": "float"            
         },
         {
             "name": "ts_timestamp",
