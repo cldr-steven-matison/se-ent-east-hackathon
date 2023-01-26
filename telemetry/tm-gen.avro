@@ -32,7 +32,7 @@
         "type": "int",
         "arg.properties": {
           "range": {
-            "min": 1,
+            "min": 0,
             "max": 100
           }
         }
